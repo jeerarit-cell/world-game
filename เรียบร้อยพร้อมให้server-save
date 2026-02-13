@@ -337,7 +337,7 @@
 
     <script>
     // --- 5. GAME LOGIC & GLOBALS ---
-    let playerCOIN = 200, playerMaxHP = 20, playerCurrentHP = 20, playerLevel = 1, playerEXP = 0; 
+    let playerCOIN = 40, playerMaxHP = 20, playerCurrentHP = 20, playerLevel = 1, playerEXP = 0; 
     let earnedFromGameToday = 0;
     let lastRewardDate = new Date().toDateString();
     let currentMonsterType = 'common'; 
@@ -433,7 +433,7 @@
         // ----------------------------------------
         // 🆕 กรณี: ผู้เล่นใหม่ (ไม่พบ Save)
         // ----------------------------------------
-        playerCOIN = 200;       // แจกเงินขวัญถุง
+        playerCOIN = 40;       // แจกเงินขวัญถุง
         playerLevel = 1;
         playerEXP = 0;
         playerMaxHP = 20;
